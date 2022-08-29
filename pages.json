@@ -1,0 +1,283 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		// {
+		//     "path" : "pages/start/start",
+		//     "style" :                                                                                    
+		//     {
+		//         "app-plus": {
+		//         	"titleNView": false
+		// 		}
+		//     }
+		    
+		// },
+		{
+		    "path" : "pages/Home/Home",
+		        "style" :
+		        {
+					"navigationBarTitleText": "发现",
+		            "app-plus": {
+		            	
+		    		}
+		        }
+		    
+		},{
+		    "path" : "pages/Illness/Illness",
+		    "style" :
+		    {
+				"navigationBarTitleText": "病情发展",
+		        "app-plus": {
+					"scrollIndicator": "none"
+		    	}
+		    }
+		    
+		},{
+			"path": "pages/index/index",
+			"style" :
+			{
+			    "app-plus": {
+			    	"titleNView": false
+				}
+			}
+		}
+        ,{
+            "path" : "pages/Fuction/Fuction",
+            "style" :
+            {
+                "navigationBarTitleText": "语音视频"
+            }
+            
+        },{
+		    "path" : "pages/Position/Position",
+		    "style" :
+		    {
+		        "navigationBarTitleText": "地理位置"
+		    }
+		    
+		}
+        
+        ,{
+            "path" : "pages/login/login",
+            "style" :                                                                                    
+            {
+               "app-plus": {
+               	"titleNView": false
+               }
+			   
+            }
+            
+        }
+        ,{
+            "path" : "pages/identity/identity",
+            "style" :                                                                                    
+            {
+				// "app-plus": {
+				// 	"titleNView": false
+				// },
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        
+        ,{
+            "path" : "pages/Reg/Reg",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "注册",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        
+        ,{
+            "path" : "pages/forg/forg",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        
+        ,{
+            "path" : "pages/Video/Video",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/Yuying/Yuying",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/Message/Message",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/Wait/Wait",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/Search/Search",
+            "style" :                                                                                    
+            {
+                "navigationBarBackgroundColor": "#FFFBF6",
+				"app-plus": {
+					"scrollIndicator": "none",
+					"titleNView": {
+						"searchInput": {
+							"placeholder": "请输入搜索内容-",
+							"disabled": false,
+							"align": "left",
+							"autoFocus": true,
+							"borderRadius": "15px",
+							"backgroundColor": "#F7F7F7",
+							"placeholderColor": "#B3B3B3"
+						},
+						"buttons": [
+							{
+								"float": "right",
+								"color": "#636263",
+								"text": "搜索",
+								"fontSize": "16px",
+								"width": "60px"
+							}
+						]
+					}
+				}
+            }
+            
+        }
+        
+        ,{
+            "path" : "pages/search-list/search-list",
+            "style" :                                                                                    
+            {
+               "navigationBarBackgroundColor": "#FFFBF6",
+               "app-plus": {
+               	"scrollIndicator": "none",
+               	"titleNView": {
+               		"searchInput": {
+               			"placeholder": "请输入搜索内容-",
+               			"disabled": true,
+               			"align": "left",
+               			"borderRadius": "15px",
+               			"backgroundColor": "#F7F7F7",
+               			"placeholderColor": "#B3B3B3"
+               		},
+               		"buttons": [
+               			{
+               				"float": "right",
+               				"color": "#636263",
+               				"text": "更多",
+               				"fontSize": "16px",
+               				"width": "60px"
+               			}
+               		]
+               	}
+               }
+            }
+            
+        }
+        ,{
+            "path" : "pages/conv/conv",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/gongneng/gongneng",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/phone/phone",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "手机号注册",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/phone-call/phone-call",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"scrollIndicator": "none"
+		}
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#007AFF",
+		"borderStyle": "black",
+		"backgroundColor": "#F8F8F8",
+		"list": [{
+				"pagePath": "pages/Illness/Illness",
+				"iconPath": "./static/picture/reg2.png",
+				"selectedIconPath": "./static/picture/35.png",
+				"text": "病情发展"
+			},
+			{
+				"pagePath": "pages/Fuction/Fuction",
+				"iconPath": "./static/picture/28.png",
+				"selectedIconPath": "./static/picture/27.png",
+				"text": "语音视频"
+			} ,
+			{
+					"pagePath": "pages/Home/Home",
+					"iconPath": "./static/picture/10.png",
+					"selectedIconPath": "./static/picture/11.png",
+					"text": "发现"
+			},
+			{
+				"pagePath": "pages/Position/Position",
+				"iconPath": "static/picture/location.png",
+				"selectedIconPath": "./static/picture/9.png",
+				"text": "地理位置"
+			} ,
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "./static/picture/13.png",
+				"selectedIconPath": "./static/picture/14.png",
+				"text": "个人主页"
+			} 
+		]
+	}
+}
